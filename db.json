@@ -1,0 +1,52 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "username": "throwaway5678",
+      "time": {
+        "year": "2020",
+        "month": "3",
+        "day" : "24",
+        "hour": "10",  
+        "min": "24"
+      },
+      "body": "I like a latte with cocoa sprinkles"
+    },
+    {
+      "id": 2,
+      "username": "coffeedrinker34",
+      "time": {
+        "year": "2020",
+        "month": "11",
+        "day" : "20",
+        "hour": "15",
+        "min": "55"
+      },
+      "body": "Iced coffee is my favourite"
+    },
+    {
+      "id": 3,
+      "username": "throwaway78",
+      "time": {
+        "year": "2020",
+        "month": "11",
+        "day" : "21",
+        "hour": "11",  
+        "min": "14"
+      },
+      "body": "I'm more of a tea fan."
+    },
+        {
+          "id": 4,
+          "username": "falkonFan34",
+          "time": {
+            "year": "2020",
+            "month": "11",
+            "day" : "21",
+            "hour": "19",
+            "min": "1"
+          },
+          "body": "With toast and jam."
+        }
+  ]
+}

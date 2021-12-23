@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Vanilla JavaScript demonstrating REST API, using json-server to mimic a backend.">
+        <meta name="keywords" content="HTML, CSS, JavaScript, REST, API">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Forum</h1>
+        </header>
+        <section>
+            <article>
+                <div>
+                    <div class="post_title">
+                        <h2>How do you like your coffee in the morning?</h2>
+                        <time datetime="2020-11-17 20:00" class="post_time">Posted 2019</time>
+                    </div>
+                    <figure>
+                        <img src="./media/coffee.jpg" alt="a cup of coffee">
+                    </figure>
+                    <p class="post_comment">I like mine with a ginger biscuit.</p>
+                </div>
+                <br>
+                <div class="form_container">
+                    <form>
+                        <label for="comment-input"></label>
+                        <textarea type="text" id="comment-input" maxlength="500" rows="5" placeholder="What would you like to say?">
+                        </textarea>
+                    </form>
+                    <button>COMMENT</button>
+                </div>
+                <br>
+                <br>
+                <div id="commentContainer" class="comment_container">
+                </div>
+            </article>
+        </section>
+        <script src="./fetch_onload.js"></script>
+        <script src="./print_comments.js"></script>
+        <script src="./date_difference.js"></script>
+        <script src="./time_since.js"></script>
+    </body>
+</html>
